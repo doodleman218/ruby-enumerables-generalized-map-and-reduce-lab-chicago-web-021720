@@ -36,7 +36,6 @@ def reduce (source_array, starting_point=nil)
   end
   while index < source_array.length do
     sum = (yield(sum,source_array[index]))
-  binding.pry
     index += 1
   end
  sum
