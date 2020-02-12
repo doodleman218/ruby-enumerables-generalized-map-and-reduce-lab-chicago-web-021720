@@ -25,6 +25,7 @@ def map (array)
    new_array  
 end
 
+
 def reduce (source_array, starting_point=nil)
  new_total = 0 
   index = 0
@@ -34,3 +35,25 @@ def reduce (source_array, starting_point=nil)
   end
  new_total
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def reduce (source_array, starting_point=nil)
+# new_total = 0 
+#   index = 0
+#   while index < source_array.length do
+#     new_total += (yield(source_array[index]))
+#     index += 1
+#   end
+# new_total
+# end
