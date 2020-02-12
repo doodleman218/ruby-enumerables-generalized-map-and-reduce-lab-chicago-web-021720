@@ -27,6 +27,7 @@ end
 
 
 def reduce (source_array, starting_point=nil)
+  binding.pry
   if starting_point
    sum = starting_point
    index = 0
