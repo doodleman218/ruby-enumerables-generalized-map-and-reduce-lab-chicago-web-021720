@@ -31,7 +31,7 @@ def reduce (source_array, starting_point=nil)
    sum = starting_point
    index = 0
   else
-    starting_point = source_array[0]
+    sum = source_array[0]
     index = 1
   end
   
