@@ -27,7 +27,8 @@ end
 
 
 def reduce (source_array, starting_point=nil)
- if 
+ if starting_point
+   
  
  
  new_total = 0 
