@@ -27,9 +27,11 @@ end
 
 
 def reduce (source_array, starting_point=nil)
- if starting_point
-   sum = 
- 
+  if starting_point
+   sum = starting_point
+   index = 0
+  else
+    
  
  new_total = 0 
   index = 0
