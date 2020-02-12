@@ -27,6 +27,9 @@ end
 
 
 def reduce (source_array, starting_point=nil)
+ if 
+ 
+ 
  new_total = 0 
   index = 0
   while index < source_array.length do
