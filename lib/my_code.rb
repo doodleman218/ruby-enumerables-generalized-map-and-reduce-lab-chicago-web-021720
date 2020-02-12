@@ -38,7 +38,7 @@ def reduce (source_array, starting_point=nil)
     new_total += (yield(source_array[index]))
     index += 1
   end
- new_total
+ sum
 end
 
 
