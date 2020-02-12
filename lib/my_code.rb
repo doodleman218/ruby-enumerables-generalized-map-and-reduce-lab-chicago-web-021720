@@ -27,8 +27,6 @@ end
 
 
 def reduce (source_array, starting_point=nil)
-  
-  puts "****"source_array"****"
   if starting_point
    sum = starting_point
    index = 0
